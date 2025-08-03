@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
         #dot product
         dot_product_1_2 = np.dot(data_mat_1, data_mat_2)
-        #print("dotproduct_1_2:", dot_product_1_2)
+        print("dotproduct_1_2:", dot_product_1_2)
 
         normalized_dot_product_1_2 = normalize(dot_product_1_2, numDimensions)
         #print("norm_dotproduct_1_2:", normalized_dot_product_1_2)
